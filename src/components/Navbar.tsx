@@ -26,32 +26,32 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex space-x-10'>
         <li>
-          <Link  to='home' smooth={true} duration={500}>
+          <Link  to='home111' smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='skills111' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to='ToDo' smooth={true} duration={500}>
+          <Link to='todo111' smooth={true} duration={500}>
            To-Do List
           </Link>
         </li>
         <li >
-          <Link to='Quiz' smooth={true} duration={500}>
+          <Link to='quiz111' smooth={true} duration={500}>
             Quiz
           </Link>
         </li>
         <li >
-          <Link to='Halving' smooth={true} duration={500}>
+          <Link to='halving111' smooth={true} duration={500}>
             Halving
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link to='name' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -84,37 +84,37 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-5xl '>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='home111' smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className='py-6 text-5xl'>
           {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='skills111' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className='py-6 text-5xl'>
           {' '}
-          <Link onClick={handleClick} to='Todo' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='todo111' smooth={true} duration={500}>
             To-Do List
           </Link>
         </li>
         <li className='py-6 text-5xl'>
           {' '}
-          <Link onClick={handleClick} to='Quiz' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='quiz111' smooth={true} duration={500}>
             Quiz
           </Link>
         </li>
         <li className='py-6 text-5xl'>
           {' '}
-          <Link onClick={handleClick} to='Halving' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='halving111' smooth={true} duration={500}>
           Halving
           </Link>
         </li>
         <li className='py-6 text-5xl'>
           {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='name' smooth={true} duration={500}>
             Contact
           </Link>
         </li>

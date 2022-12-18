@@ -9,14 +9,14 @@ const Home = () => {
     const handleClick = () => setNav(!nav);
     const World = require("../assets/111.png")
   return (
-    <div  className='w-full h-screen bg-[#15243f] '>
+    <div id='home111' className='w-full h-screen bg-[#15243f] '>
       {/* Container */}
       
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full '>
         <div className='mt-1'>
         <p className='text-pink-600'>Hi, my name is</p>
         
-        <h1 id ='home' className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] '>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] '>
           Mishaal Odeh
         </h1>
         <h2 className='text-4xl sm:text-4xl font-bold text-[#8892b0]'>

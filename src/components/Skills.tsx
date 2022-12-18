@@ -19,7 +19,7 @@ const Skills = () => {
     const Python = require("../assets/Python69.png")
     const Pine = require("../assets/pine.png")
   return (
-    <div  className='w-full h-screen bg-[#15243f] text-gray-300'>
+    <div id='skills111' className='w-full h-screen bg-[#15243f] text-gray-300'>
       {/* Container */}
 
       <div className='max-w-[75%] ml-[12.5%] mx-auto p-4 flex text-center flex-col justify-center w-full h-full'>
