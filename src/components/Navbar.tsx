@@ -25,32 +25,32 @@ const Navbar = () => {
      
       {/* menu */}
       <ul className='hidden md:flex space-x-10'>
-        <li>
+        <li className='hover:border-b-2'>
           <Link  to='home111' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='hover:border-b-2'>
           <Link to='skills111' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='hover:border-b-2'>
           <Link to='todo111' smooth={true} duration={500}>
            To-Do List
           </Link>
         </li>
-        <li >
+        <li className='hover:border-b-2'>
           <Link to='quiz111' smooth={true} duration={500}>
             Quiz
           </Link>
         </li>
-        <li >
+        <li className='hover:border-b-2'>
           <Link to='halving111' smooth={true} duration={500}>
             Halving
           </Link>
         </li>
-        <li>
+        <li className='hover:border-b-2'>
           <Link to='name' smooth={true} duration={500}>
             Contact
           </Link>
@@ -106,7 +106,7 @@ const Navbar = () => {
             Quiz
           </Link>
         </li>
-        <li className='py-6 text-5xl'>
+        <li className='py-6 text-5xl hover:text-red-500'>
           {' '}
           <Link onClick={handleClick} to='halving111' smooth={true} duration={500}>
           Halving
