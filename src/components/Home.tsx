@@ -41,7 +41,7 @@ const Home = () => {
       
           <button className='text-white group border-2 px-1 py-1 my-2 flex items-center hover:border-pink-600'>
           
-            <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+            <Link onClick={handleClick} to='skills111' smooth={true} duration={500}>
             My Skills
           </Link>
            
