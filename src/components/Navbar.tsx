@@ -124,7 +124,7 @@ const Navbar = () => {
       <div className=' lg:flex fixed flex-col top-[33.3333333%] left-2'>
         <div className='hidden lg:flex'>
         <ul >
-        <li className='w-[140px] h-[25px] flex justify-between items-center ml-[-100px] hover:ml-[-22px] duration-300 border-solid border-[5px] border-gray-400  border-y-transparent  bg-gray-700  hover:bg-[#333] '>
+        <li className='w-[130px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-solid border-[5px] border-gray-400  border-y-transparent  bg-gray-700  hover:bg-[#333] '>
             <a
               className='flex justify-between items-center w-full text-gray-300 hover:text-gray-300'
               href='https://github.com/MishOd1'
@@ -132,7 +132,7 @@ const Navbar = () => {
               GitHub <FaGithub size={25} />
             </a>
           </li>
-          <li className='w-[140px] h-[25px] flex justify-between items-center ml-[-100px] hover:ml-[-22px] duration-300 border-solid border-[5px] border-[#1d92f2]  border-y-transparent  bg-gray-700 hover:bg-[#1DA1F2] '>
+          <li className='w-[130px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-solid border-[5px] border-[#1d92f2]  border-y-transparent  bg-gray-700 hover:bg-[#1DA1F2] '>
             <a
               className='flex justify-between items-center w-full text-[#1DA1F2] hover:text-gray-300'
               href='https://twitter.com/MeshalOdah'
@@ -140,7 +140,7 @@ const Navbar = () => {
               Twitter <FaTwitter size={25} />
             </a>
           </li>
-          <li className='w-[140px] h-[25px] flex justify-between items-center ml-[-100px] hover:ml-[-22px] border-solid border-[5px] border-blue-600 border-y-transparent duration-300 bg-gray-700 hover:bg-blue-600'>
+          <li className='w-[130px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] border-solid border-[5px] border-blue-600 border-y-transparent duration-300 bg-gray-700 hover:bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-blue-600 hover:text-gray-300'
               href='https://www.facebook.com/44a44'

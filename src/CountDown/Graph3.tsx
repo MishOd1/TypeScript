@@ -172,7 +172,7 @@ const options:any= {
 }
   
   return(
-    <div className='-z-50'>
+    <div className='-z-50 '>
       <ReactApexChart options={options} series={series} type="line" height={500} />
     </div>
   )

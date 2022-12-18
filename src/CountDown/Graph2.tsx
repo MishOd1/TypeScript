@@ -12,6 +12,7 @@ function Graph2 (){
     chart: {
       type: 'line',
       height: 350,
+      background:'#F2ECF4',
       
     },
     stroke: {
@@ -75,7 +76,7 @@ function Graph2 (){
     
   }
   return(
-    <div>
+    <div className='mt-10'>
       <ReactApexChart options={options} series={series} type="line" height={500} />
     </div>
   )
